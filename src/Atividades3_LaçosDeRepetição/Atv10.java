@@ -11,7 +11,7 @@ public class Atv10 {
         do {
             System.out.println("Digite o item na lista de compras: ");
 
-                    produto = sc.next();
+            produto = sc.next();
             mercado.add(produto);
             System.out.println("Lista completa: ");
             for(String item : mercado) {
