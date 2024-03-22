@@ -2,7 +2,7 @@ package Atividade4_Encapsulamento;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main_Fatura {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
