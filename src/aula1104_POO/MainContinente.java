@@ -6,14 +6,10 @@ import java.util.Scanner;
 public class MainContinente {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String addPaises = "";
-        ArrayList<Double> dimensao = new ArrayList<>();
-        ArrayList<Double> populacao = new ArrayList<>();
-        int[][] guardarArrays = new int[3][];
+        String addPaises;
 
         Continente continente = new Continente("America", 42.550, 925.200);
         Continente paisesContinente = new Continente();
-
 
 
         for (int i = 0; i <= 2; i++) {
